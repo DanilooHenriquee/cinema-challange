@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Config\\": "config/"
+        },
+        "files": [
+            "helpers/debug.php",
+            "helpers/baseUrl.php",
+            "helpers/constants.php"
+        ]
+    }
+}
